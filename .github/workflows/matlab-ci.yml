@@ -1,12 +1,11 @@
 name: MATLAB CI checks
 on:
   push:
-    branches: [ "main", "dev" ]
   pull_request:
     branches: [ "main", "dev" ]
   workflow_dispatch:
 jobs:
-  run-buildtool:
+  buildtool:
     name: Run MATLAB Build Tool
     runs-on: ubuntu-latest
     steps:
