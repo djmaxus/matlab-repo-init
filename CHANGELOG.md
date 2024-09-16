@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.1.1...v0.2.0) (2024-09-16)
+
+
+### Features
+
+* :hammer: `reset_template` function for project initialization ([1e44a33](https://github.com/djmaxus/matlab-repo-init/commit/1e44a33ffbc360be22d28a2c42144f3de8853d6f))
+
+
+### Bug Fixes
+
+* :memo: set relative status badge path ([3e43858](https://github.com/djmaxus/matlab-repo-init/commit/3e43858403df7a45da0948ea441ec78a2e324898))
+
 ## [0.1.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.1.0...v0.1.1) (2024-09-13)
 
 
