@@ -1,6 +1,6 @@
 # MATLAB GitHub Repository [Template](https://github.com/djmaxus/matlab-repo-init)
 
-![MATLAB checks status](https://github.com/djmaxus/matlab-repo-init/actions/workflows/matlab-ci.yml/badge.svg?branch=main)
+![MATLAB checks](../../actions/workflows/matlab-ci.yml/badge.svg)
 [![View matlab-repo-init on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/171364-matlab-repo-init)
 
 - MATLAB project tree with automated Path initialization on [startup](startup.m)
