@@ -11,3 +11,11 @@
 - [`README`](README.md) [deployment](.github/workflows/webpage.yml) at [`[user].github.io/[repo]`](https://djmaxus.github.io/matlab-repo-init)
 - [Dependabot](.github/dependabot.yml) for GitHub Actions
 - [Utility functions](util/) found useful for analyzing legacy MATLAB script codebases
+
+## References
+
+- https://uk.mathworks.com/help/matlab/ref/startup.html
+- https://uk.mathworks.com/help/matlab/matlab_prog/overview-of-matlab-build-tool.html
+- https://www.toptal.com/developers/gitignore/
+- https://choosealicense.com/
+- https://www.conventionalcommits.org/en/v1.0.0/
