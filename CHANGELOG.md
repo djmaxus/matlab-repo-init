@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.0...v0.2.1) (2024-09-23)
+
+
+### Documentation
+
+* :memo: add references to the toolset ([f839e18](https://github.com/djmaxus/matlab-repo-init/commit/f839e1852de37a1019d8c394249596b6b455c8bf))
+
 ## [0.2.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.1.1...v0.2.0) (2024-09-16)
 
 
