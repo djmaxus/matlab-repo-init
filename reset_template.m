@@ -34,6 +34,10 @@ else
     error('Could not open README.md for writing.');
 end
 
+% Delete unneeded workflow file
+syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
+delete(syncMirrorWorkflowPath)
+
 % Create a figure for the UI
 hFig = figure('Name', 'Licenses to Keep', 'Position', [300, 300, 300, 150], 'MenuBar', 'none', 'NumberTitle', 'off');
 
