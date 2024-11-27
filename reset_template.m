@@ -13,12 +13,12 @@ else
     error('Could not open CHANGELOG.md for writing.');
 end
 
-% Write "0.0.0" to version.txt
+% Write "0.0.1" to version.txt
 fid = fopen(versionPath, 'w');
 if fid ~= -1
-    fprintf(fid, '0.0.0\n');
+    fprintf(fid, '0.0.1\n');
     fclose(fid);
-    fprintf('version has been set to "0.0.0".\n');
+    fprintf('version has been set to "0.0.1".\n');
 else
     error('Could not open version.txt for writing.');
 end
