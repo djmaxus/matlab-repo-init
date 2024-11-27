@@ -20,5 +20,5 @@ jobs:
       - name: Run markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v18
         with:
-          fix: true       # Automatically fix fixable issues
-          globs: '**/*.md' # Target all Markdown files
+          fix: true       
+          globs: '**/*.md' 
