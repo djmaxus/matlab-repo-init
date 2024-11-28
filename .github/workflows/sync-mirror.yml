@@ -1,5 +1,6 @@
 on:
   push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -20,4 +21,4 @@ jobs:
           git remote add icl git@github.com:ImperialCollegeLondon/matlab-repo-init.git
 
           # Push all branches, overwriting if necessary
-          git push icl --all --force
+          git push --force --tags icl main
