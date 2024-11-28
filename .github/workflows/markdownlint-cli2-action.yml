@@ -20,5 +20,7 @@ jobs:
       - name: Run markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v18
         with:
-          fix: true       
-          globs: '**/*.md' 
+          fix: true
+          globs: |
+            **/*.md
+            !CHANGELOG.md
