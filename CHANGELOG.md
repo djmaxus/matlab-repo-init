@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.1...v0.2.2) (2024-11-29)
+
+
+### Bug Fixes
+
+* :green_heart: do not lint `CHANGELOG.md` ([c7580c8](https://github.com/djmaxus/matlab-repo-init/commit/c7580c8f37423a992779edcbef18464ccc8841d8))
+* :green_heart: markdownlint: exclude `develop` branch from the workflow's logic ([10d7881](https://github.com/djmaxus/matlab-repo-init/commit/10d7881494fa50ee00aa59badcd9aeb573936234))
+
 ## [0.2.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.0...v0.2.1) (2024-09-23)
 
 
