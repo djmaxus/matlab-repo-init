@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.1...v0.2.2) (2024-12-03)
+
+
+### Bug Fixes
+
+* :children_crossing: `func`: more accurate argument validation ([76e369d](https://github.com/djmaxus/matlab-repo-init/commit/76e369d98b83e70f969ff2d067e3948e90ad108e))
+* :children_crossing: improved `reset_template` ([3d05d76](https://github.com/djmaxus/matlab-repo-init/commit/3d05d766d2f73003b60bcef0a082e5a12da1b69a))
+* :green_heart: do not lint `CHANGELOG.md` ([c7580c8](https://github.com/djmaxus/matlab-repo-init/commit/c7580c8f37423a992779edcbef18464ccc8841d8))
+* :green_heart: markdownlint: exclude `develop` branch from the workflow's logic ([10d7881](https://github.com/djmaxus/matlab-repo-init/commit/10d7881494fa50ee00aa59badcd9aeb573936234))
+
 ## [0.2.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.0...v0.2.1) (2024-09-23)
 
 
