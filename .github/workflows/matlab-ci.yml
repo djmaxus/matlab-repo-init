@@ -1,8 +1,9 @@
 name: MATLAB CI checks
 on:
   push:
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "dev" ]
+    branches: [ "main" ]
   workflow_dispatch:
 jobs:
   buildtool:
