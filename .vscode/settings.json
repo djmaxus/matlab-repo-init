@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "matlab-ci"
+        "matlab-ci",
+        "release-please"
     ]
 }
