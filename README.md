@@ -17,6 +17,9 @@ to make your own repository from this template
 
 Please go to repository's [Wiki][wiki] for more detailed user manual.
 
+And do not hesitate to ask [me](https://djmaxus.github.io/)
+for assistance and technical support.
+
 ## Features
 
 - Automated Path initialization on [`startup`](startup.m)
