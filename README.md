@@ -8,17 +8,33 @@ Quickstart your public MATLAB repository. Batteries included 🔋
 
 ## How to use
 
-1. Click [Use this template][github-use-template]
-to make your own repository from this template
-2. Run [`reset_template`](./reset_template.m) script
-3. **Upload your own MATLAB code**
-4. Tweak anything else to you liking
-5. Commit changes [appropriately][conventional-commits] along the way
+First, click [Use this template][github-use-template]
+to make your own repository from this template.
+Clone your new repository.
 
-Please go to repository's [Wiki][wiki] for more detailed user manual.
+Then locally:
 
-And do not hesitate to ask [me](https://djmaxus.github.io/)
-for assistance and technical support.
+1. Run [`reset_template`](./reset_template.m) script
+2. **Upload your own MATLAB code**
+3. Tweak anything else to you liking
+4. Commit changes [appropriately][conventional-commits] along the way
+
+Then, in _Settings — Actions — General_ of your repository:
+
+1. "Allow all actions and reusable workflows"
+2. "Allow GitHub Actions to create and approve pull requests"
+
+Then push the local changes and carry on with the development
+of your freshly established public MATLAB project!
+
+Please go to repository's [Wiki][wiki] (when it's ready)
+for more detailed user manual.
+
+Do not hesitate to ask [me](https://djmaxus.github.io/)
+for assistance and technical support.\
+And everyone is welcome to open
+[issues](https://github.com/djmaxus/matlab-repo-init/issues)
+to request a feature, enhance the documentation, or report a bug.
 
 ## Features
 
