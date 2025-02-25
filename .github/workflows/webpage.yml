@@ -1,8 +1,7 @@
 name: Repository webpage
 
 on:
-  push:
-    branches: ["main"]
+  release:
   pull_request:
     branches: ["main"]
 
