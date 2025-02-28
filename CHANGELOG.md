@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.3.0...v0.4.0) (2025-02-28)
+
+
+### Features
+
+* Add link checker workflow to CI ([a474999](https://github.com/djmaxus/matlab-repo-init/commit/a47499900fb22e8e245ffb033926e08425d985b8))
+
+
+### Bug Fixes
+
+* Specify release type for workflow ([14eaef7](https://github.com/djmaxus/matlab-repo-init/commit/14eaef7afeda802c231d256663ca263f4232ea53))
+
 ## [0.3.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.1...v0.3.0) (2024-12-03)
 
 
