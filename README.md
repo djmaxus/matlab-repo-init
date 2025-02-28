@@ -24,6 +24,14 @@ Then, in _Settings — Actions — General_ of your repository:
 1. "Allow all actions and reusable workflows"
 2. "Allow GitHub Actions to create and approve pull requests"
 
+You can also import a pre-built [**ruleset**](.github/rules/main.json) to protect
+`main` branch from accidental unwanted hard-to-recover changes.\
+In _Settings — Rules — Rulesets_ of your repository:
+
+1. Click _New ruleset — Import a ruleset_
+2. Upload [`.github/rules/main.json`](.github/rules/main.json)
+3. Modify if needed and save
+
 Then push the local changes and carry on with the development
 of your freshly established public MATLAB project!
 
