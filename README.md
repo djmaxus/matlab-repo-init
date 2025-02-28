@@ -51,12 +51,13 @@ based on [Conventional Commits](.github/workflows/commitlint.yml)
 
 ## References
 
+- [Creating a Repository From a Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 - [Overview of MATLAB Build Tool](https://mathworks.com/help/matlab/matlab_prog/overview-of-matlab-build-tool.html)
 - [User-defined `startup` script for MATLAB](https://mathworks.com/help/matlab/ref/startup.html)
 - [`.gitignore` generator](https://gitignore.io)
 - [Choosing an Open Source License](https://choosealicense.com/)
 - [Conventional Commits][conventional-commits]
 
-[github-use-template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+[github-use-template]: https://github.com/new?template_name=matlab-repo-init&template_owner=djmaxus
 [conventional-commits]: https://www.conventionalcommits.org
 [wiki]: https://github.com/djmaxus/matlab-repo-init/wiki
