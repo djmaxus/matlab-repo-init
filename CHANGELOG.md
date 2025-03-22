@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.3.0...v0.4.0) (2025-03-22)
+
+
+### Features
+
+* :construction_worker: pre-built GitHub ruleset for `main` branch ([d8f457d](https://github.com/djmaxus/matlab-repo-init/commit/d8f457d355ae6600e7063914ff90df2c192871e1))
+* Add link checker workflow to CI ([a474999](https://github.com/djmaxus/matlab-repo-init/commit/a47499900fb22e8e245ffb033926e08425d985b8))
+* **ci:** :construction_worker: new PR pipeline ([6449ea1](https://github.com/djmaxus/matlab-repo-init/commit/6449ea15dd3f3600eb606aab555486dcd18421bf))
+* **ci:** 👷 test min and max MATLAB releases ([66435e0](https://github.com/djmaxus/matlab-repo-init/commit/66435e0fde0e9bbd1c772d9be2a37d0ac1644409))
+* **ci:** 💚 cancel running jobs on PR update ([4de6da7](https://github.com/djmaxus/matlab-repo-init/commit/4de6da7b31db6dbd43f0c70ddf9f7e14ac2c6333))
+* **github:** 📈 try to include `.yml` to repo stats ([a32d3f9](https://github.com/djmaxus/matlab-repo-init/commit/a32d3f9c3ae3142d20b6b928142892bbdc135938))
+
+
+### Bug Fixes
+
+* **ci:** 👷 write access only on webpage deploy ([c2d18ea](https://github.com/djmaxus/matlab-repo-init/commit/c2d18ea06fec4a29aacd651bdb74134050f2bee1))
+* **ci:** 🧑‍💻 add short `name:` for readability ([32b5aa6](https://github.com/djmaxus/matlab-repo-init/commit/32b5aa6153f72425f58312c27c7b878d506651e5))
+* **ci:** 🧑‍💻 rename jobs for readability ([a055fbe](https://github.com/djmaxus/matlab-repo-init/commit/a055fbe77ca80c4183aa04c5e0c09293138f7234))
+* **ci:** 🚑️ pipeline to work on pushes to main ([f6b672b](https://github.com/djmaxus/matlab-repo-init/commit/f6b672b030dfe1b3ad3648bc76445ead4a977e8f))
+* **doc:** 📝 link to CI status badge ([7ecd020](https://github.com/djmaxus/matlab-repo-init/commit/7ecd020441b0eff76daff14c8f59e0bff34fcb16))
+* **git:** 🧑‍💻 new scopes for conventional commits ([036c509](https://github.com/djmaxus/matlab-repo-init/commit/036c5096f4de5f2571ea0e3c2445a9e42bab91cd))
+* Specify release type for workflow ([14eaef7](https://github.com/djmaxus/matlab-repo-init/commit/14eaef7afeda802c231d256663ca263f4232ea53))
+
 ## [0.3.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.2.1...v0.3.0) (2024-12-03)
 
 
