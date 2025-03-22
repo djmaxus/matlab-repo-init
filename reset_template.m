@@ -63,7 +63,8 @@ end
 license_text=fread(fid,'*char')';
 fclose(fid);
 
-upd_license_text = regexprep(license_text,'Copyright \(c\) (.*?)\n', ['Copyright (c) ',num2str(year),', ', full_name,'\n']);
+upd_license_text = regexprep(license_text,'Copyright \(c\) (.*?)\n', ...
+    ['Copyright (c) ',num2str(year),', ', full_name,'\n']);
 
 [fid, err_msg] = fopen(full_file,'w');
 if fid == -1
