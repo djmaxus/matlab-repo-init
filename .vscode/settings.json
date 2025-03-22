@@ -3,6 +3,7 @@
         "ci",
         "git",
         "matlab",
-        "github"
+        "github",
+        "doc"
     ],
 }
