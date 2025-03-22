@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.4.0...v0.5.0) (2025-03-22)
+
+
+### Features
+
+* **github:** 📝 improve language detection ([ccedb7f](https://github.com/djmaxus/matlab-repo-init/commit/ccedb7f30af217ec9f156ce2a462c21a4933adad))
+
 ## [0.4.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.3.0...v0.4.0) (2025-03-22)
 
 
