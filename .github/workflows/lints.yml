@@ -4,12 +4,12 @@ jobs:
     links:
         uses: ./.github/workflows/links.yml
     commit:
-        name: Commit message lint
+        name: Commit messages
         runs-on: ubuntu-latest
         steps:
         - uses: opensource-nepal/commitlint@v1
     markdown:
-        name: Markdown lint
+        name: Markdown
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
                 **/*.md
                 !CHANGELOG.md
     cspell:
-        name: Spell checking
+        name: Spelling
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v4

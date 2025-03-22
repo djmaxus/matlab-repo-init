@@ -1,4 +1,3 @@
-name: Check links in Markdown files
 on:
   schedule:
     - cron: 0 0 * * 1   # midnight every Monday
