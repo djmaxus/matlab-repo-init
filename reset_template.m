@@ -14,7 +14,7 @@ mkdir('src');
 reset_file('CHANGELOG.md');
 reset_file('version.txt', '0.0.1\n');
 reset_file('README.md', ['# README\n\n',...
-                         '![MATLAB checks](../../actions/workflows/matlab-ci.yml/badge.svg)\n']);
+                         '![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)\n']);
 
 syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
 delete(syncMirrorWorkflowPath)
@@ -70,4 +70,3 @@ end
 fprintf(fid,'%s',upd_license_text);
 fclose(fid);
 end
-
