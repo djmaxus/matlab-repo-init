@@ -8,7 +8,7 @@ jobs:
     if: github.repository == 'djmaxus/matlab-repo-init'
     runs-on: ubuntu-latest
     steps:
-      - uses: webfactory/ssh-agent@v0.9.0
+      - uses: webfactory/ssh-agent@v0.9.1
         with:
           ssh-private-key: ${{ secrets.MATLAB_TEMPLATE_MIRROR_SSH_PRIVATE_KEY }}
       - name: Push changes to ImperialCollegeLondon/matlab-repo-init
