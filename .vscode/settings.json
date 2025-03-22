@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "ci",
         "git",
-        "matlab"
+        "matlab",
+        "github"
     ],
 }
