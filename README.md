@@ -1,6 +1,6 @@
 # MATLAB GitHub Repository [Template](https://github.com/djmaxus/matlab-repo-init)
 
-![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)
+![CI](https://github.com/djmaxus/matlab-repo-init/actions/workflows/ci.yml/badge.svg?branch=main)
 [![View matlab-repo-init on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/171364-matlab-repo-init)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
