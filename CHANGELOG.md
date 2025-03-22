@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.5.0...v0.6.0) (2025-03-22)
+
+
+### Features
+
+* **matlab:** 🚨 Code Analyzer config file ([dcdfb65](https://github.com/djmaxus/matlab-repo-init/commit/dcdfb65a43ef623c7b08f1c00a29efcc2369626f))
+
+
+### Bug Fixes
+
+* **matlab:** 🚨 reduce column width for readability ([94f140b](https://github.com/djmaxus/matlab-repo-init/commit/94f140b675721918e20a14adcf3df8e7390ef626))
+* **matlab:** 🚨 zero warnings threshold for check task ([b865284](https://github.com/djmaxus/matlab-repo-init/commit/b8652841f8e4e4188a4be0799484fd264ed7a504))
+
 ## [0.5.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.4.0...v0.5.0) (2025-03-22)
 
 
