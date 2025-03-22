@@ -6,6 +6,5 @@ jobs:
         name: Lints
         uses: ./.github/workflows/lints.yml
     matlab: # heavy MATLAB checks
-        name: MATLAB checks
         needs: lints
         uses: ./.github/workflows/matlab.yml
