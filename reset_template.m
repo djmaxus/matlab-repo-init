@@ -12,6 +12,8 @@ mkdir('src');
 
 % Reset repository files
 reset_file('CHANGELOG.md');
+reset_file('.release-please-manifest.json', '{}\n');
+reset_file('.gitattributes', '\n');
 reset_file('version.txt', '0.0.1\n');
 reset_file('README.md', ['# README\n\n',...
                          '![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)\n']);
