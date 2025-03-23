@@ -1,4 +1,4 @@
-# MATLAB GitHub Repository [Template](https://github.com/djmaxus/matlab-repo-init)
+# [Template Repository](https://github.com/djmaxus/matlab-repo-init) for Open-Source MATLAB
 
 ![CI](https://github.com/djmaxus/matlab-repo-init/actions/workflows/ci.yml/badge.svg?branch=main)
 [![View matlab-repo-init on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/171364-matlab-repo-init)
@@ -16,13 +16,13 @@ Then locally:
 
 1. **Run [`init`](./init.m)** function for cleanup
 2. **Upload your own MATLAB code**
-3. Tweak anything else to you liking
+3. Change anything else to you liking
 4. Commit changes [appropriately][conventional-commits] along the way
 
-Then, in _Settings — Actions — General_ of your repository:
+Then, in _Settings — **Actions** — General_ of your repository:
 
-1. "Allow all actions and reusable workflows"
-2. "Allow GitHub Actions to create and approve pull requests"
+1. [x] _Allow all actions and reusable workflows_
+2. [x] _Allow GitHub Actions to create and approve pull requests_
 
 You can also import a pre-built [**ruleset**](.github/rules/main.json) to protect
 `main` branch from accidental unwanted hard-to-recover changes.\
@@ -49,10 +49,10 @@ to request a feature, enhance the documentation, or report a bug.
 - Automated Path initialization on [`startup`](startup.m)
 - [Utility functions](util/) for analyzing legacy MATLAB scripts
 - [`.gitignore`](.gitignore) for MATLAB/Simulink/Octave
-- [MATLAB syntax checks](.github/workflows/matlab-ci.yml)
+- [MATLAB code checks](.github/workflows/matlab.yml)
 on pull requests and pushes to `main` branch
 - Automated [releases](.github/workflows/release-please.yml)
-based on [Conventional Commits](.github/workflows/commitlint.yml)
+based on Conventional Commits
 - [Dependabot](.github/dependabot.yml) for GitHub Actions
 - [`README`](README.md) [deployment](.github/workflows/webpage.yml) at [`<user>.github.io/<repo>`](https://djmaxus.github.io/matlab-repo-init)
 - [BSD 3-Clause](LICENSE) open-source license
