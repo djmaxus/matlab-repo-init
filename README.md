@@ -6,7 +6,9 @@
 
 Quickstart your public MATLAB repository. Batteries included 🔋
 
-![logo](doc/logo.svg)
+<!-- markdownlint-disable MD033 -->
+<img src="doc/logo.png" width=280 alt="logo">
+<!-- markdownlint-enable MD033 -->
 
 ## How to use
 
