@@ -6,6 +6,8 @@
 
 Quickstart your public MATLAB repository. Batteries included 🔋
 
+![logo](doc/logo.svg)
+
 ## How to use
 
 First, click [Use this template][github-use-template]
