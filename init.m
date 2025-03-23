@@ -1,4 +1,4 @@
-function [] = reset_template(year,full_name,self_delete)
+function [] = init(year,full_name,self_delete)
 arguments
     year (1,1) int32
     full_name char
