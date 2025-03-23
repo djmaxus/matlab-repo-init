@@ -14,7 +14,7 @@ Clone your new repository.
 
 Then locally:
 
-1. Run [`reset_template`](./reset_template.m) script
+1. **Run [`init`](./init.m)** function for cleanup
 2. **Upload your own MATLAB code**
 3. Tweak anything else to you liking
 4. Commit changes [appropriately][conventional-commits] along the way
