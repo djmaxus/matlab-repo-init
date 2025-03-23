@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.6.0...v0.7.0) (2025-03-23)
+
+
+### Features
+
+* **ci:** 🚀 option: manual webpage deploy ([764c667](https://github.com/djmaxus/matlab-repo-init/commit/764c6671a8fd3a914af832dbaf5e287ba26c2302))
+
 ## [0.6.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.5.0...v0.6.0) (2025-03-22)
 
 
