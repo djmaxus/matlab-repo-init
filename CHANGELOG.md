@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.1...v0.8.2) (2025-03-25)
+
+
+### Bug Fixes
+
+* **ci:** 🚑️ put patch script in action file ([9e5c452](https://github.com/djmaxus/matlab-repo-init/commit/9e5c45249302a15894f2d8334ef5ddd0d90ccfd4))
+
 ## [0.8.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.0...v0.8.1) (2025-03-25)
 
 
