@@ -1,4 +1,4 @@
-name: '`matlab-repo-init` patch'
+name: 'matlab-repo-patch'
 description: 'Pull latest release of `matlab-repo-init`'
 runs:
   using: "composite"
