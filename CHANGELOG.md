@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.2...v0.8.3) (2025-03-25)
+
+
+### Bug Fixes
+
+* **ci:** 🐛 patch action: require sufficient access token ([e81c593](https://github.com/djmaxus/matlab-repo-init/commit/e81c59399460c0dd09819f9dde2accae7b500c7d))
+
 ## [0.8.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.1...v0.8.2) (2025-03-25)
 
 
