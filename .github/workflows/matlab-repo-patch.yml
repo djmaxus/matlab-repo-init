@@ -1,3 +1,5 @@
+name: matlab-repo-patch
+
 on:
     workflow_dispatch:
 
