@@ -1,0 +1,7 @@
+name: '`matlab-repo-init` patch'
+description: 'Pull latest release of `matlab-repo-init`'
+runs:
+  using: "composite"
+  steps:
+    - run: .github/actions/patch/patch.sh
+      shell: bash
