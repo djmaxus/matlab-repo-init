@@ -3,5 +3,10 @@ description: 'Pull latest release of `matlab-repo-init`'
 runs:
   using: "composite"
   steps:
+    - uses : actions/checkout@v4
+      with:
+        sparse-checkout: |
+          .github/actions/patch/patch.sh
+        sparse-checkout-cone-mode: false
     - run: .github/actions/patch/patch.sh
       shell: bash
