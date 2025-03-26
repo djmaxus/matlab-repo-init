@@ -3,6 +3,7 @@ arguments
     year (1,1) int32
     full_name char
     args.self_delete (1,1) logical = true;
+    args.reset_test (1,1) logical = true;
 end
 
 % Reset MATLAB code examples
@@ -17,6 +18,9 @@ reset_file('.gitattributes', '\n');
 reset_file('version.txt', '0.0.1\n');
 reset_file('README.md', ['# README\n\n',...
                          '![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)\n']);
+if args.reset_test
+    reset_file('test.m','assert(true);\n');
+end
 
 syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
 delete(syncMirrorWorkflowPath)
