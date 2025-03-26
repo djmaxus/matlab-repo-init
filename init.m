@@ -1,8 +1,8 @@
-function [] = init(year,full_name,self_delete)
+function [] = init(year,full_name,args)
 arguments
     year (1,1) int32
     full_name char
-    self_delete (1,1) logical = true;
+    args.self_delete (1,1) logical = true;
 end
 
 % Reset MATLAB code examples
@@ -21,10 +21,12 @@ reset_file('README.md', ['# README\n\n',...
 syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
 delete(syncMirrorWorkflowPath)
 
+rmdir('.github/actions','s');
+
 % Set license details
 set_license('LICENSE',year,full_name);
 
-if ~self_delete
+if ~args.self_delete
     return;
 end
 
