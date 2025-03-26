@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.1...v0.9.2) (2025-03-26)
+
+
+### Bug Fixes
+
+* **ci:** MATLAB warning threshold ([62eb115](https://github.com/djmaxus/matlab-repo-init/commit/62eb115b2a5d87110388379796a3cf4265798bb1))
+
 ## [0.9.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.0...v0.9.1) (2025-03-26)
 
 
