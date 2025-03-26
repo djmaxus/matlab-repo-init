@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/djmaxus/matlab-repo-init/actions/workflows/ci.yml/badge.svg?branch=main)
 [![View matlab-repo-init on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/171364-matlab-repo-init)
+![GitHub Tag](https://img.shields.io/github/v/tag/djmaxus/matlab-repo-init?sort=semver&style=flat&label=version)
+![GitHub Release Date](https://img.shields.io/github/release-date/djmaxus/matlab-repo-init?display_date=published_at&style=flat&label=dated)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 Quickstart your public MATLAB repository. Batteries included 🔋
