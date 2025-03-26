@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.3...v0.9.0) (2025-03-26)
+
+
+### Features
+
+* **ci:** ✅ Add MATLAB test script ([6740fe1](https://github.com/djmaxus/matlab-repo-init/commit/6740fe1f9065be962799eef86738e1436fc6af76))
+* **ci:** support MATLAB 2023a ([a78f83b](https://github.com/djmaxus/matlab-repo-init/commit/a78f83b9b0e39b5c26b23b764e4d750110b36e9c))
+
+
+### Bug Fixes
+
+* 🚸 delete internal GitHub Actions during `init` ([127ff69](https://github.com/djmaxus/matlab-repo-init/commit/127ff697bc2964b60fe2160a6c8b3bf770f65132))
+* **action-patch:** 🚸 exclude some files from the patch ([905d06f](https://github.com/djmaxus/matlab-repo-init/commit/905d06f571b7127cad0b140f0ee0d4b80e0dbecc))
+* **ci:** 💚 gihut-check as linkspector reporter ([b9a98ec](https://github.com/djmaxus/matlab-repo-init/commit/b9a98eca8fbd02ec4f9ac1889fd88cc0e8c0cc24))
+* **ci:** 💚 remove cache from webpage builder ([5a0e94f](https://github.com/djmaxus/matlab-repo-init/commit/5a0e94f6efb621b5b809e952c4cdb05409dea8f2))
+* **ci:** 🧑‍💻 make webpage builder a reusable workflow ([06013c9](https://github.com/djmaxus/matlab-repo-init/commit/06013c9daed556f7c0c819f0b6cfe7c8487bc693))
+
 ## [0.8.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.2...v0.8.3) (2025-03-25)
 
 
