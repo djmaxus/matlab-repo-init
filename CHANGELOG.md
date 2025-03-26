@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.0...v0.9.1) (2025-03-26)
+
+
+### Bug Fixes
+
+* **ci:** webpage-build.yml ([2d9ad31](https://github.com/djmaxus/matlab-repo-init/commit/2d9ad31adae98c86ec248c4e00b3b825ef9c0af5))
+
 ## [0.9.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.8.3...v0.9.0) (2025-03-26)
 
 
