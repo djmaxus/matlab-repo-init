@@ -3,7 +3,8 @@ description: 'Pull latest release of `matlab-repo-init`'
 runs:
   using: "composite"
   steps:
-    - run: |
+    - shell: bash
+      run: |
         git remote add matlab-repo-init https://github.com/djmaxus/matlab-repo-init.git --fetch --no-tags
 
         release_sha=$(git ls-remote --tags matlab-repo-init | tail -1 | cut -f1)
@@ -13,15 +14,20 @@ runs:
         git diff --binary "$(git hash-object -t tree /dev/null)" "$release_sha" > matlab-repo-init.patch
         git apply --theirs --3way matlab-repo-init.patch
 
-        git add .
+        excluded_files="README.md LICENSE.md CHANGELOG.md .vscode/* .release-please-manifest.json version.txt src/* .gitattributes .gitignore init.m main.m doc/* .github/actions/* .github/workflows/sync-mirror.yml"
+
+        for file in $excluded_files; do
+        if [ -e "$file" ]; then
+            git restore -S "$file"
+        fi
+        done
 
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-        git commit -m "WIP: matlab-repo-init:$release_ref"
+        git commit -m "matlab-repo-init: $release_ref"
 
         git --no-pager log --decorate=short --pretty=oneline -n1
 
         git checkout -b matlab-repo-init
         git push -u origin matlab-repo-init
-      shell: bash
