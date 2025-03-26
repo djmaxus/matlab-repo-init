@@ -1,9 +1,15 @@
 function plan = buildfile()
-import matlab.buildtool.tasks.CodeIssuesTask
 plan = buildplan(localfunctions);
 
-task = "check";
-plan(task) = CodeIssuesTask(WarningThreshold=0);
-plan.DefaultTasks = task;
+if isMATLABReleaseOlderThan("R2023b")
+    plan("test") = matlab.buildtool.Task( ...
+    Description="Run tests", ...
+    Actions=@(~) assert(runtests().Failed == 0));
+    plan.DefaultTasks = "test";
+    return;
+end
 
+plan("check") = matlab.buildtool.tasks.CodeIssuesTask;
+plan("test") = matlab.buildtool.tasks.TestTask;
+plan.DefaultTasks = ["check","test"];
 end
