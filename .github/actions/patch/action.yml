@@ -14,7 +14,7 @@ runs:
         git diff --binary "$(git hash-object -t tree /dev/null)" "$release_sha" > matlab-repo-init.patch
         git apply --theirs --3way matlab-repo-init.patch
 
-        excluded_files="README.md LICENSE.md CHANGELOG.md .vscode/* .release-please-manifest.json version.txt src/* .gitattributes .gitignore init.m main.m doc/* .github/actions/* .github/workflows/sync-mirror.yml"
+        excluded_files="README.md LICENSE.md CHANGELOG.md .vscode/* .release-please-manifest.json version.txt src/* .gitattributes .gitignore init.m main.m doc/* .github/actions/* .github/workflows/sync-mirror.yml CNAME"
 
         for file in $excluded_files; do
         if [ -e "$file" ]; then
