@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.0...v0.10.1) (2025-03-28)
+
+
+### Bug Fixes
+
+* **ci:** write permission for webpage workflow ([bf7d1e2](https://github.com/djmaxus/matlab-repo-init/commit/bf7d1e2d49420ba8e6f999621c14c8759620d860))
+
 ## [0.10.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.2...v0.10.0) (2025-03-28)
 
 
