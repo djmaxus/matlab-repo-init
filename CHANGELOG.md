@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.1...v0.10.2) (2025-03-28)
+
+
+### Reverts
+
+* "style: fix ASCII logo" ([95a4f2a](https://github.com/djmaxus/matlab-repo-init/commit/95a4f2ae2c17f6c209b40b880a07f451e2d59935))
+
 ## [0.10.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.0...v0.10.1) (2025-03-28)
 
 
