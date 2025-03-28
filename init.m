@@ -26,7 +26,10 @@ if args.reset_test
 end
 
 syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
-delete(syncMirrorWorkflowPath)
+delete(syncMirrorWorkflowPath);
+
+cname_path = fullfile(pwd, 'CNAME');
+delete(cname_path);
 
 rmdir('.github/actions','s');
 
