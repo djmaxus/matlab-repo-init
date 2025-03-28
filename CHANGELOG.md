@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.2...v0.10.0) (2025-03-28)
+
+
+### Features
+
+* **action-patch:** send patch file too ([aabb2c8](https://github.com/djmaxus/matlab-repo-init/commit/aabb2c82a3ec1a4262232d50838ee65abc830cf7))
+
 ## [0.9.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.9.1...v0.9.2) (2025-03-26)
 
 
