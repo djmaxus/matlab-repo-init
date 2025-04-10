@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.2...v0.10.3) (2025-04-10)
+
+
+### Bug Fixes
+
+* `issues: write` permission for `release-please` ([b8b29d2](https://github.com/djmaxus/matlab-repo-init/commit/b8b29d2711dc96508b99ce2d5cfe39bdbb1f3857))
+
 ## [0.10.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.1...v0.10.2) (2025-03-28)
 
 
