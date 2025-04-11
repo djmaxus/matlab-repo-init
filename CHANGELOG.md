@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.1...v0.13.2) (2025-04-11)
+
+
+### Bug Fixes
+
+* **ci:** 📦️ add release tag to the asset ([4c481e8](https://github.com/djmaxus/matlab-repo-init/commit/4c481e8122fa6d9ce8660b5356860928b4b8853d))
+
 ## [0.13.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.0...v0.13.1) (2025-04-11)
 
 
