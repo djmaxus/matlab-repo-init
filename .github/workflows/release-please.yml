@@ -16,7 +16,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
           target-branch: main
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Tag annotation
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          tag="v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin --tags
+          git checkout ${tag}
+          git tag --annotate --force ${tag} -m "${tag}"
+          git push origin ${tag} --force
