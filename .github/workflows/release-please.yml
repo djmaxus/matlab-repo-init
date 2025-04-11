@@ -25,7 +25,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
           target-branch: main
-      - uses: actions/checkout@v4
+      - if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Tag annotation
@@ -38,6 +39,14 @@ jobs:
           git checkout ${tag}
           git tag --annotate --force ${tag} -m "${tag}"
           git push origin ${tag} --force
+      - name: Attach repository archive
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}"
+          git archive --output ${{ github.event.repository.name }}.zip --verbose --worktree-attributes ${tag}
+          gh release upload ${{ steps.release.outputs.tag_name }} ./${{ github.event.repository.name }}.zip
   webpage:
       needs: release-please
       if: ${{ needs.release-please.outputs.release_created }}
