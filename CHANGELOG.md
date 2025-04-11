@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.0...v0.13.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* **git:** 📦️ typos in export-ignore paths ([f852554](https://github.com/djmaxus/matlab-repo-init/commit/f852554081dbe87ad8be25e02d78dbf063775014))
+
 ## [0.13.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.12.1...v0.13.0) (2025-04-11)
 
 
