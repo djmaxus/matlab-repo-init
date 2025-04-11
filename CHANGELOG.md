@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.12.0...v0.12.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* **ci:** permissions for webpage deployment on release ([9282143](https://github.com/djmaxus/matlab-repo-init/commit/9282143098f7d9fa82df9c69067c47524df27be0))
+* **ci:** webpage job in release-please.yml ([53ca89f](https://github.com/djmaxus/matlab-repo-init/commit/53ca89f954f3148f97f156f8b89569478b3ccc9a))
+
 ## [0.12.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.11.0...v0.12.0) (2025-04-11)
 
 
