@@ -11,10 +11,10 @@ main.m -linguist-detectable
 src/** -linguist-detectable
 
 # export-ignore
-.github/actions/**                export-ignore
+.github/actions                   export-ignore
 .github/workflows/sync-mirror.yml export-ignore
-.vscode/**                        export-ignore
-.doc/**                           export-ignore
+.vscode                           export-ignore
+doc/**                            export-ignore
 src/**                            export-ignore
 .gitattributes                    export-ignore
 .release-please-manifest.json     export-ignore
