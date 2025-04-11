@@ -9,3 +9,18 @@ README.md -linguist-vendored -linguist-generated -linguist-documentation linguis
 
 main.m -linguist-detectable
 src/** -linguist-detectable
+
+# export-ignore
+.github/actions/**                export-ignore
+.github/workflows/sync-mirror.yml export-ignore
+.vscode/**                        export-ignore
+.doc/**                           export-ignore
+src/**                            export-ignore
+.gitattributes                    export-ignore
+.release-please-manifest.json     export-ignore
+CHANGELOG.md                      export-ignore
+init.m                            export-ignore
+LICENSE                           export-ignore
+main.m                            export-ignore
+README.md                         export-ignore
+version.txt                       export-ignore
