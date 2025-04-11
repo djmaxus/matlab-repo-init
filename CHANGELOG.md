@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.2...v0.13.3) (2025-04-11)
+
+
+### Bug Fixes
+
+* **git:** do not export test.m and .gitignore ([cb6b45d](https://github.com/djmaxus/matlab-repo-init/commit/cb6b45d279a87a53c97a7718889c9a04a776be72))
+
 ## [0.13.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.1...v0.13.2) (2025-04-11)
 
 
