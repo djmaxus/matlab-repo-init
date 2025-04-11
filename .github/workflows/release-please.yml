@@ -34,3 +34,6 @@ jobs:
           git checkout ${tag}
           git tag --annotate --force ${tag} -m "${tag}"
           git push origin ${tag} --force
+      - name: Deploy webpage 
+        if: ${{ steps.release.outputs.release_created }}
+        uses: ./.github/workflows/webpage.yml
