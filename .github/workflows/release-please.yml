@@ -45,8 +45,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           tag="v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}"
-          git archive --output ${{ github.event.repository.name }}.zip --verbose --worktree-attributes ${tag}
-          gh release upload ${{ steps.release.outputs.tag_name }} ./${{ github.event.repository.name }}.zip
+          asset_name="${{ github.event.repository.name }}-${tag}.zip"
+          git archive --output ${asset_name} --verbose --worktree-attributes ${tag}
+          gh release upload ${{ steps.release.outputs.tag_name }} ./${asset_name}
   webpage:
       needs: release-please
       if: ${{ needs.release-please.outputs.release_created }}
