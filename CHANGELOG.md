@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.13.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.12.1...v0.13.0) (2025-04-11)
+
+
+### Features
+
+* 📄 add copyright notice ([411cbe3](https://github.com/djmaxus/matlab-repo-init/commit/411cbe30783ce1d11aa5853f89bf4a82ff256227))
+* **ci:** 📦️ attach git archive to release ([d525ff2](https://github.com/djmaxus/matlab-repo-init/commit/d525ff21832a348578d803c7fd446476ac52fcfb))
+* **git:** 📦️ exclude files from `git archive` ([95218e8](https://github.com/djmaxus/matlab-repo-init/commit/95218e8027dd87f4d2b4d765105afe3410982111))
+
 ## [0.12.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.12.0...v0.12.1) (2025-04-11)
 
 
