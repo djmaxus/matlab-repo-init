@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.11.0...v0.12.0) (2025-04-11)
+
+
+### Features
+
+* **ci:** deploy webpage in release-please action ([53d8276](https://github.com/djmaxus/matlab-repo-init/commit/53d82768d328083d692716bc453524b732430e70))
+* **ci:** make webpage action workflow-callable ([527a13c](https://github.com/djmaxus/matlab-repo-init/commit/527a13c486ab0ad2cba03c1b5c6a07a78489bbf8))
+
 ## [0.11.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.3...v0.11.0) (2025-04-11)
 
 
