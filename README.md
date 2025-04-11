@@ -30,6 +30,9 @@ Then, in _Settings — **Actions** — General_ of your repository:
 1. [x] _Allow all actions and reusable workflows_
 2. [x] _Allow GitHub Actions to create and approve pull requests_
 
+To enable repository webpage deployment:
+- [x] _Settings — **Pages** — Build and deployment — Source_ = **GitHub Actions**
+
 You can also import a pre-built [**ruleset**](.github/rules/main.json) to protect
 `main` branch from accidental unwanted hard-to-recover changes.\
 In _Settings — Rules — Rulesets_ of your repository:
