@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.3...v0.11.0) (2025-04-11)
+
+
+### Features
+
+* **ci:** annotate tags on release ([5c5c58f](https://github.com/djmaxus/matlab-repo-init/commit/5c5c58f31444dbf7639f50675144a648f945661c))
+
 ## [0.10.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.10.2...v0.10.3) (2025-04-10)
 
 
