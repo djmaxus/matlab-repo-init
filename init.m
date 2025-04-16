@@ -40,10 +40,10 @@ print_info();
 print_logo();
 
 % Reset repository files
-reset_file('CHANGELOG.md');
+delete_file('CHANGELOG.md');
 reset_file('.release-please-manifest.json', '{}\n');
 reset_file('.gitattributes', '\n');
-reset_file('version.txt', '0.0.1\n');
+delete_file('version.txt');
 reset_file('README.md', ['# README\n\n',...
                          '![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)\n']);
 if args.reset_test
@@ -150,4 +150,10 @@ fprintf(...
 "   ▀▜██████████████▛▀\n" + ...
 "         ▀▀▀▀\n" + ...
 "\n");
+end
+
+function delete_file(file_relative_path)
+file_fill_path = fullfile(pwd, file_relative_path);
+delete(file_fill_path);
+fprintf([file_relative_path, ' has been deleted.\n']);
 end
