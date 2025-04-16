@@ -7,7 +7,6 @@
 LICENSE -linguist-vendored -linguist-generated -linguist-documentation linguist-detectable
 README.md -linguist-vendored -linguist-generated -linguist-documentation linguist-detectable
 
-main.m -linguist-detectable
 src/** -linguist-detectable
 
 # export-ignore
@@ -21,7 +20,6 @@ src/**                            export-ignore
 CHANGELOG.md                      export-ignore
 init.m                            export-ignore
 LICENSE                           export-ignore
-main.m                            export-ignore
 README.md                         export-ignore
 version.txt                       export-ignore
 test.m                            export-ignore
