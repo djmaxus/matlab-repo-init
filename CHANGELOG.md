@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.14.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.0...v0.14.1) (2025-04-16)
+
+
+### Bug Fixes
+
+* **ci:** issue filters in pre-R2023b checks ([76c37c9](https://github.com/djmaxus/matlab-repo-init/commit/76c37c9b6973d1b618310a919ae6f489b5872655))
+* remove dependabot from the exported ruleset ([f6a1c10](https://github.com/djmaxus/matlab-repo-init/commit/f6a1c10f4173a5726d2ef717dd4c2da4e3ab0461))
+
 ## [0.14.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.3...v0.14.0) (2025-04-16)
 
 
