@@ -8,7 +8,10 @@
     ],
     "flagWords": [],
     "ignorePaths": [
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "**/*.yml",
+        "**/*.m",
+        "**/*.json"
     ],
     "ignoreWords": [
         "oneline",

@@ -55,6 +55,14 @@ delete(syncMirrorWorkflowPath)
 
 rmdir('.github/actions','s');
 
+cspell_default = struct('version','0.2',...
+'language','en',...
+'words',[],...
+'flagWords',[],...
+'ignorePaths',["CHANGELOG.md";"**/*.yml";"**/*.m";"**/*.json"],...
+'ignoreWords',[]);
+reset_file('.cspell.json',jsonencode(cspell_default,PrettyPrint=true)+"\n");
+
 % Set license details
 set_license('LICENSE',year,full_name);
 
@@ -71,7 +79,7 @@ end
 function reset_file(name,lines)
 arguments
     name char
-    lines char = ''
+    lines = ""
 end
 
 full_file = fullfile(pwd, name);
