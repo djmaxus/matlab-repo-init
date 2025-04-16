@@ -61,8 +61,7 @@ if args.reset_test
     reset_file('test.m','assert(true);\n');
 end
 
-syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
-delete(syncMirrorWorkflowPath)
+delete_file('.github/workflows/sync-mirror.yml');
 
 cspell_default = struct('version','0.2',...
 'language','en',...
@@ -105,7 +104,6 @@ fprintf(fid, lines);
 fclose(fid);
 fprintf([name, ' has been reset.\n']);
 end
-
 
 function set_license(file_name,year,full_name)
 full_file = fullfile(pwd, file_name);
