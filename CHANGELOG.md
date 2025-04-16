@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.14.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.3...v0.14.0) (2025-04-16)
+
+
+### Features
+
+* **init:** 📄 generate source template notice in README ([2e404cf](https://github.com/djmaxus/matlab-repo-init/commit/2e404cfec829b09d84bcb1d5a1c196c53943e025)), closes [#92](https://github.com/djmaxus/matlab-repo-init/issues/92)
+
+
+### Bug Fixes
+
+* **ci:** 👷 add explicit parameters for `release-please` ([21fecb1](https://github.com/djmaxus/matlab-repo-init/commit/21fecb11fbd15d949fff462107a9eca59d5372ba))
+* **ci:** 🔧 update `main` branch rule ([7f36851](https://github.com/djmaxus/matlab-repo-init/commit/7f36851641b1390499d654e13bd976227059e083))
+* **ci:** 🚨 cspell configuration on `init` ([3a62862](https://github.com/djmaxus/matlab-repo-init/commit/3a62862bc36b1d2abfbca57f5b0e48b1713bde80))
+* **init:** 🐛 remove `.vscode` folder on `init` ([e733748](https://github.com/djmaxus/matlab-repo-init/commit/e733748a8099ce9d3f79e811d37d715824a1d334)), closes [#97](https://github.com/djmaxus/matlab-repo-init/issues/97)
+* **init:** 🔥 delete `CHANGELOG` and `version.txt` on `init` ([f29c189](https://github.com/djmaxus/matlab-repo-init/commit/f29c1891450b3b6539c2389602b8e82b2022b670))
+* **init:** 🔥 remove the patch action on `init` ([de7011f](https://github.com/djmaxus/matlab-repo-init/commit/de7011fcd29311c5e1295f93b0432df4767f207b))
+* **matlab:** 🔥 simplify project tree example ([65add60](https://github.com/djmaxus/matlab-repo-init/commit/65add60a38068c351f280aedcb8471ccf5908b8a))
+
 ## [0.13.3](https://github.com/djmaxus/matlab-repo-init/compare/v0.13.2...v0.13.3) (2025-04-11)
 
 
