@@ -39,11 +39,6 @@ end
 print_info();
 print_logo();
 
-% Reset MATLAB code examples
-reset_file('main.m','function varargout = main(varargin)\nend\n');
-rmdir('src','s');
-mkdir('src');
-
 % Reset repository files
 reset_file('CHANGELOG.md');
 reset_file('.release-please-manifest.json', '{}\n');
