@@ -25,6 +25,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
           target-branch: main
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
       - if: ${{ steps.release.outputs.release_created }}
         uses: actions/checkout@v4
         with:
