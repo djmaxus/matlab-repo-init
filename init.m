@@ -64,8 +64,6 @@ end
 syncMirrorWorkflowPath = fullfile(pwd, '.github/workflows/sync-mirror.yml');
 delete(syncMirrorWorkflowPath)
 
-rmdir('.github/actions','s');
-
 cspell_default = struct('version','0.2',...
 'language','en',...
 'words',[],...
@@ -75,6 +73,7 @@ cspell_default = struct('version','0.2',...
 reset_file('.cspell.json',jsonencode(cspell_default,PrettyPrint=true)+"\n");
 
 rmdir('.vscode','s');
+rmdir('.github/actions','s');
 
 % Set license details
 set_license('LICENSE',year,full_name);

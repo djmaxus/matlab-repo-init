@@ -1,3 +1,8 @@
+# Experimental action to pull the latest release of matlab-repo-init
+# and apply it as a patch to the current repository.
+# This action is not intended for production use and is subject to change.
+# It is recommended to simply download official release artifacts
+
 name: 'matlab-repo-patch'
 description: 'Pull latest release of `matlab-repo-init`'
 runs:
@@ -23,7 +28,7 @@ runs:
         done
 
         git add matlab-repo-init.patch
-        
+
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
 
