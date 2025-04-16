@@ -5,6 +5,7 @@
         "matlab",
         "github",
         "doc",
-        "action-patch"
+        "action-patch",
+        "init"
     ],
 }
