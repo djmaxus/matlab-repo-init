@@ -14,7 +14,8 @@
         "**/*.json"
     ],
     "ignoreWords": [
+        "buildtool",
         "oneline",
-        "buildtool"
+        "waitbar"
     ]
 }
