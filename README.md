@@ -9,7 +9,7 @@
 Quickstart your public MATLAB repository. Batteries included 🔋
 
 <!-- markdownlint-disable MD033 -->
-<img src="doc/logo.png" width=280 alt="logo">
+<img src="doc/matlab-repo-init.png" width=280 alt="logo">
 <!-- markdownlint-enable MD033 -->
 
 ## How to use
