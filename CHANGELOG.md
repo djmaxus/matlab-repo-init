@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.2...v0.15.0) (2025-04-23)
+
+
+### Features
+
+* **github:** contributing/security guidelines ([950563b](https://github.com/djmaxus/matlab-repo-init/commit/950563b9b12130ddb431a29ae11e410c33aed473))
+
 ## [0.14.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.1...v0.14.2) (2025-04-23)
 
 
