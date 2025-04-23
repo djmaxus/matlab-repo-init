@@ -4,6 +4,8 @@ on:
 
 jobs:
   buildtool:
+    permissions:
+      contents: read
     strategy:
       matrix:
         release: [R2023a, R2024b]
