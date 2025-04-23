@@ -31,6 +31,7 @@ Then, in _Settings — **Actions** — General_ of your repository:
 2. [x] _Allow GitHub Actions to create and approve pull requests_
 
 To enable repository webpage deployment:
+
 - [x] _Settings — **Pages** — Build and deployment — Source_ = **GitHub Actions**
 
 You can also import a pre-built [**ruleset**](.github/rules/main.json) to protect

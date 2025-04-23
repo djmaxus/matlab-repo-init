@@ -58,7 +58,7 @@ reset_file('README.md', ...
 "\n");
 
 if args.reset_test
-    reset_file('test.m','assert(true);\n');
+    reset_file('test.m',"warning('not implemented');\n");
 end
 
 delete_file('.github/workflows/sync-mirror.yml');

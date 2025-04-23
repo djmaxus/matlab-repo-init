@@ -1,6 +1,9 @@
 {
     "version": "0.2",
-    "language": "en",
+    "language": "en,en-GB",
+    "dictionaries": [
+        "scientific-terms-us"
+    ],
     "words": [
         "ruleset",
         "Rulesets",
