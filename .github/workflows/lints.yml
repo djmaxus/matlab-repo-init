@@ -2,9 +2,13 @@ on:
     workflow_call:
 jobs:
     links:
+        permissions:
+            contents: read
         uses: ./.github/workflows/links.yml
     commit:
         name: Commit messages
+        permissions:
+            contents: read
         runs-on: ubuntu-latest
         steps:
         - uses: opensource-nepal/commitlint@v1

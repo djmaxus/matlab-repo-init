@@ -12,10 +12,16 @@ concurrency:
 jobs:
     lints: # fast lints
         name: Lints
+        permissions:
+            contents: read
         uses: ./.github/workflows/lints.yml
     matlab: # heavy MATLAB checks
+        permissions:
+            contents: read
         needs: lints
         uses: ./.github/workflows/matlab.yml
     webpage-build:
+        permissions:
+            contents: read
         needs: lints
         uses: ./.github/workflows/webpage-build.yml
