@@ -19,3 +19,4 @@ jobs:
           reporter: github-check
           level: info
           show_stats: true
+          fail_level: error
