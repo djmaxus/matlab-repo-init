@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.14.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.1...v0.14.2) (2025-04-23)
+
+
+### Bug Fixes
+
+* **ci:** 🔒️ explicit fine-grained workflow permissions ([43bf6fa](https://github.com/djmaxus/matlab-repo-init/commit/43bf6fa369c374cd87040292aa3332607e80a48b)), closes [#143](https://github.com/djmaxus/matlab-repo-init/issues/143) [#142](https://github.com/djmaxus/matlab-repo-init/issues/142) [#141](https://github.com/djmaxus/matlab-repo-init/issues/141) [#140](https://github.com/djmaxus/matlab-repo-init/issues/140) [#139](https://github.com/djmaxus/matlab-repo-init/issues/139) [#137](https://github.com/djmaxus/matlab-repo-init/issues/137) [#136](https://github.com/djmaxus/matlab-repo-init/issues/136) [#134](https://github.com/djmaxus/matlab-repo-init/issues/134)
+* **ci:** 🔒️ more explicit permissions ([c2a5c9e](https://github.com/djmaxus/matlab-repo-init/commit/c2a5c9e94979c0c24c42c869ca166839ef2032f8)), closes [#136](https://github.com/djmaxus/matlab-repo-init/issues/136) [#138](https://github.com/djmaxus/matlab-repo-init/issues/138) [#139](https://github.com/djmaxus/matlab-repo-init/issues/139) [#142](https://github.com/djmaxus/matlab-repo-init/issues/142) [#143](https://github.com/djmaxus/matlab-repo-init/issues/143)
+* **ci:** explicit permissions for `buildtool` ([9aaa3ba](https://github.com/djmaxus/matlab-repo-init/commit/9aaa3bab5aed79953c49bcd4b3954440e8ac4938))
+
 ## [0.14.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.0...v0.14.1) (2025-04-16)
 
 
