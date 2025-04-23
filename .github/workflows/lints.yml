@@ -10,6 +10,8 @@ jobs:
         - uses: opensource-nepal/commitlint@v1
     markdown:
         name: Markdown
+        permissions:
+            contents: read
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v4
@@ -21,6 +23,8 @@ jobs:
                 !CHANGELOG.md
     cspell:
         name: Spelling
+        permissions:
+            contents: read
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v4

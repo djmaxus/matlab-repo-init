@@ -5,6 +5,8 @@ on:
 
 jobs:
   mirror_repo:
+    permissions:
+      contents: read
     if: github.repository == 'djmaxus/matlab-repo-init'
     runs-on: ubuntu-latest
     steps:
