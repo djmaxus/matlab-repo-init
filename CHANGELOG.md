@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.15.0...v0.15.1) (2025-04-23)
+
+
+### Bug Fixes
+
+* **ci:** linkspector: fail on error ([df44456](https://github.com/djmaxus/matlab-repo-init/commit/df44456cd7c032c0364706c06d5a6cc19c1e563f))
+
 ## [0.15.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.14.2...v0.15.0) (2025-04-23)
 
 
