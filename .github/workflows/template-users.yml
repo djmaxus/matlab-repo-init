@@ -2,6 +2,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 0 0 * * * # every midnight
+permissions:
+  contents: read
 jobs:
   template_users:
     runs-on: ubuntu-latest
