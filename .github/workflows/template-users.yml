@@ -1,0 +1,13 @@
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * * # every midnight
+jobs:
+  template_users:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Find Template Users
+      uses: maael/template-repository-usage-action@v1.2.0
+      with:
+        token: ${{ secrets.github_token }}
+        heading_level: 3
