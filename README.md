@@ -58,10 +58,8 @@ to request a feature, enhance the documentation, or report a bug.
 - [GitHub search query](https://github.com/search?q=%22Generated+from+matlab-repo-init%22+OR+%22https%3A%2F%2Fgithub.com%2Fdjmaxus%2Fmatlab-repo-init+%28BSD+3-Clause+License%29%22&type=code)
 - [Forks](https://github.com/djmaxus/matlab-repo-init/forks?include=active%2Cinactive%2Cnetwork&page=1&period=2y)
 
-||
-|:-|
-|[`StrataTrapper`](https://github.com/ImperialCollegeLondon/StrataTrapper)|
-|[`par-waitbar`](https://github.com/djmaxus/par-waitbar)|
+<!-- TEMPLATE_LIST_START -->
+<!-- TEMPLATE_LIST_END -->
 
 ## Features
 
