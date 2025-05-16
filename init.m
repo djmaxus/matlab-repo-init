@@ -1,4 +1,4 @@
-function [] = init(year,full_name,args)
+function [] = init(year,first_name,last_name,project_title,args)
 % Main initialization script
 %
 %   BSD 3-Clause License
@@ -31,7 +31,9 @@ function [] = init(year,full_name,args)
 %   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 arguments
     year (1,1) int32
-    full_name char
+    first_name char
+    last_name char
+    project_title char
     args.self_delete (1,1) logical = true;
     args.reset_test (1,1) logical = true;
 end
@@ -46,7 +48,7 @@ reset_file('.gitattributes', '\n');
 delete_file('version.txt');
 
 reset_file('README.md', ...
-"# README\n\n" + ...
+"# " + project_title + "\n\n" + ...
 "![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)\n\n"+...
 "## Source Template Repository\n\n"+...
 "Generated from matlab-repo-init\n\n"+...
@@ -71,11 +73,15 @@ cspell_default = struct('version','0.2',...
 'ignoreWords',[]);
 reset_file('.cspell.json',jsonencode(cspell_default,PrettyPrint=true)+"\n");
 
-rmdir('.vscode','s');
-rmdir('.github/actions','s');
+rmdir('.vscode','s'); % TODO keep cff schema in settings
+rmdir('.github/actions','s'); % TODO add printed notification
 
 % Set license details
+full_name = [first_name, ' ', last_name];
 set_license('LICENSE',year,full_name);
+
+% CITATION.cff
+reset_cff(first_name,last_name,project_title);
 
 if ~args.self_delete
     return;
@@ -108,21 +114,38 @@ end
 function set_license(file_name,year,full_name)
 full_file = fullfile(pwd, file_name);
 
-[fid, err_msg] = fopen(full_file,'r');
-if fid == -1
-    error(['Could not open ', name,' for reading: ',err_msg]);
-end
-license_text=fread(fid,'*char')';
-fclose(fid);
+license_text=read_to_char(file_name);
 
 upd_license_text = regexprep(license_text,'Copyright \(c\) (.*?)\n', ...
     ['Copyright (c) ',num2str(year),', ', full_name,'\n']);
 
 [fid, err_msg] = fopen(full_file,'w');
 if fid == -1
-    error(['Could not open ', name,' for writing: ',err_msg]);
+    error(['Could not open ', file_name,' for writing: ',err_msg]);
 end
 fprintf(fid,'%s',upd_license_text);
+fclose(fid);
+end
+
+function reset_cff(first_name,last_name,project_title)
+cff_template = read_to_char('CITATION.cff.template');
+delete_file('CITATION.cff.template');
+
+reset_file('CITATION.cff', cff_template + ...
+"title: """ + project_title + """\n" + ...
+"authors:\n" + ...
+"  - family-names: " + last_name + "\n" + ...
+"    given-names: " + first_name + "\n"...
+);
+end
+
+function read_char = read_to_char(file_name)
+full_file = fullfile(pwd, file_name);
+[fid, err_msg] = fopen(full_file,'r');
+if fid == -1
+    error(['Could not open ', file_name,' for reading: ',err_msg]);
+end
+read_char = fread(fid,'*char')';
 fclose(fid);
 end
 

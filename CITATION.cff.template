@@ -1,0 +1,8 @@
+# https://github.com/citation-file-format/citation-file-format
+cff-version: 1.2.0
+type: software
+message: >-
+  If you use this software,
+  please put the copyright NOTICE.txt in your developments
+  and cite it using metadata in this file.
+# doi:

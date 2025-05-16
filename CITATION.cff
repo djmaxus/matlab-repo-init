@@ -1,0 +1,31 @@
+# https://github.com/citation-file-format/citation-file-format
+cff-version: 1.2.0
+type: software
+message: >-
+  If you use this software,
+  please put the copyright NOTICE.txt in your developments
+  and cite it using metadata in this file.
+# doi:
+title: "Template GitHub repository for open-source MATLAB"
+authors:
+  - &djmaxus
+    family-names: Elizarev
+    given-names: Maksim
+    alias: djmaxus
+    orcid: "https://orcid.org/0000-0002-5279-2877"
+    website: "https://djmaxus.dev"
+contact:
+  - *djmaxus
+keywords:
+  - MATLAB
+  - Template repository
+  - CI/CD
+  - Semantic Versioning
+  - License
+  - Release automation
+  - Github Actions
+  - github.io page
+license: BSD-3-Clause
+repository-code: "https://github.com/djmaxus/matlab-repo-init"
+url: "https://matlab-template.djmaxus.dev"
+abstract: "Wiki: https://github.com/djmaxus/matlab-repo-init/wiki"
