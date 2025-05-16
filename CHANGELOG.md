@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.15.1...v0.16.0) (2025-05-16)
+
+
+### Features
+
+* **doc:** 📝 add CITATION file ([72cb362](https://github.com/djmaxus/matlab-repo-init/commit/72cb362de2b92ef973f1ea74311795652ca32ccf))
+
 ## [0.15.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.15.0...v0.15.1) (2025-04-23)
 
 
