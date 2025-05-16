@@ -5,6 +5,8 @@
 ![GitHub Tag](https://img.shields.io/github/v/tag/djmaxus/matlab-repo-init?sort=semver&style=flat&label=version)
 ![GitHub Release Date](https://img.shields.io/github/release-date/djmaxus/matlab-repo-init?display_date=published_at&style=flat&label=dated)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15447056.svg)](https://doi.org/10.5281/zenodo.15447056)
+
 
 Quickstart your public MATLAB repository. Batteries included 🔋
 
