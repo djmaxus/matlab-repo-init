@@ -5,7 +5,7 @@ message: >-
   If you use this software,
   please put the copyright NOTICE.txt in your developments
   and cite it using metadata in this file.
-# doi:
+doi: 10.5281/zenodo.15447056
 title: "Template GitHub repository for open-source MATLAB"
 authors:
   - &djmaxus
