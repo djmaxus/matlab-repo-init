@@ -11,7 +11,7 @@ end
 if isMATLABReleaseOlderThan("R2023b")
     plan("test") = matlab.buildtool.Task( ...
     Description="Run tests", ...
-    Actions=@(~) assert(runtests().Failed == 0));
+    Actions=@(~) assert(run_tests()) );
 
     plan("check") = matlab.buildtool.Task(...
     Description="Identify code issues", ...
@@ -31,4 +31,12 @@ function flag = code_issues(warning_threshold)
     errors = find(issues.Severity == 'error');
     warnings = find(issues.Severity == 'warning');
     flag = (numel(errors) == 0) && (numel(warnings) <= warning_threshold);
+end
+
+function flag = run_tests()
+    flag = true;
+    test_results = runtests("IncludeSubfolders",true);
+    for test_result=test_results
+        flag = flag & (test_result.Failed == 0);
+    end
 end
