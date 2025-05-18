@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.17.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.16.0...v0.17.0) (2025-05-18)
+
+
+### Features
+
+* **ci:** config file for markdownlint ([e5e3f0d](https://github.com/djmaxus/matlab-repo-init/commit/e5e3f0d76380dfebcdf160842134198d88e6b02d))
+* **ci:** cSpell: add language and scientific dict ([1814273](https://github.com/djmaxus/matlab-repo-init/commit/1814273f79ddee01e4f48cb40c7f0a870bc421d7))
+* **matlab:** support multiple test files ([04ac0ec](https://github.com/djmaxus/matlab-repo-init/commit/04ac0ec9cb4a24a0f24894bb2a852d209e8d4f17))
+* **matlab:** warn if warning_threshold ~=0 ([0670c7b](https://github.com/djmaxus/matlab-repo-init/commit/0670c7b14c89794b0656af7780659e64d868ccae))
+
+
+### Bug Fixes
+
+* **github:** update main branch protection rule ([7683c2d](https://github.com/djmaxus/matlab-repo-init/commit/7683c2da3ec3ebaabb7ae22f14e998f897dadd1d))
+* **git:** update list of `git archive`d files ([b3c0cfe](https://github.com/djmaxus/matlab-repo-init/commit/b3c0cfe77acc65c201aedd8ba1a4f06866dc1749))
+* **matlab:** reset test warn "not implemented" ([49eddce](https://github.com/djmaxus/matlab-repo-init/commit/49eddcede7c9fe46d56824a5462f3b93f5e22556))
+
 ## [0.16.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.15.1...v0.16.0) (2025-05-16)
 
 
