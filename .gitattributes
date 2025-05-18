@@ -18,10 +18,10 @@ src/**                            export-ignore
 .gitattributes                    export-ignore
 .release-please-manifest.json     export-ignore
 CHANGELOG.md                      export-ignore
-init.m                            export-ignore
+# init.m                            export-ignore
 LICENSE                           export-ignore
 README.md                         export-ignore
 version.txt                       export-ignore
 test.m                            export-ignore
-.gitignore                        export-ignore
+# .gitignore                        export-ignore
 CITATION.cff                      export-ignore
