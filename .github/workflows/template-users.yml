@@ -8,7 +8,6 @@ jobs:
   template_users:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
     - name: Find Template Users
       uses: maael/template-repository-usage-action@v1.2.0
       with:
