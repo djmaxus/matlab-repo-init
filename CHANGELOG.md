@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.0...v0.17.1) (2025-05-18)
+
+
+### Reverts
+
+* 'template-users.yml` workflow  ([#169](https://github.com/djmaxus/matlab-repo-init/issues/169)) ([e450fed](https://github.com/djmaxus/matlab-repo-init/commit/e450fed6453881081aa133bc63a64294d6729d05))
+
 ## [0.17.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.16.0...v0.17.0) (2025-05-18)
 
 
