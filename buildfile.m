@@ -4,6 +4,9 @@ plan = buildplan(localfunctions);
 plan.DefaultTasks = ["check","test"];
 
 warning_threshold = 0;
+if warning_threshold ~= 0
+    warning('Code Analyzer warnings are allowed for this codebase');
+end
 
 if isMATLABReleaseOlderThan("R2023b")
     plan("test") = matlab.buildtool.Task( ...
