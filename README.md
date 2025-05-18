@@ -24,7 +24,7 @@ Then locally:
 
 1. **Run [`init`](./init.m)** function for cleanup
 2. **Upload your own MATLAB code**
-3. Change anything else to you liking
+3. Change anything else to your liking
 4. Commit changes [appropriately][conventional-commits] along the way
 
 Then, in _Settings — **Actions** — General_ of your repository:
