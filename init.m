@@ -73,8 +73,8 @@ cspell_default = struct('version','0.2',...
 'ignoreWords',[]);
 reset_file('.cspell.json',jsonencode(cspell_default,PrettyPrint=true)+"\n");
 
-rmdir('.vscode','s'); % TODO keep cff schema in settings
-rmdir('.github/actions','s'); % TODO add printed notification
+remove_directory('.vscode'); % TODO keep cff schema in settings
+remove_directory('.github/actions');
 
 % Set license details
 full_name = [first_name, ' ', last_name];
@@ -93,6 +93,15 @@ delete(which(this_file));
 
 end
 
+function remove_directory(dir_name)
+    [status, msg] = rmdir(dir_name,'s');
+    if status == 0
+        warning(['Could not remove directory ', dir_name,': ',msg]);
+        return;
+    end
+    fprintf([dir_name, ' has been removed.\n']);
+end
+
 function reset_file(name,lines)
 arguments
     name char
@@ -103,7 +112,8 @@ full_file = fullfile(pwd, name);
 [fid, err_msg] = fopen(full_file, 'w');
 
 if fid == -1
-    error(['Could not open ', name,' for writing: ',err_msg]);
+    warning(['Could not open ', name,' for writing: ',err_msg]);
+    return;
 end
 
 fprintf(fid, lines);
@@ -115,13 +125,18 @@ function set_license(file_name,year,full_name)
 full_file = fullfile(pwd, file_name);
 
 license_text=read_to_char(file_name);
+if isempty(license_text)
+    warning('Empty or absent license file');
+    return;
+end
 
 upd_license_text = regexprep(license_text,'Copyright \(c\) (.*?)\n', ...
     ['Copyright (c) ',num2str(year),', ', full_name,'\n']);
 
 [fid, err_msg] = fopen(full_file,'w');
 if fid == -1
-    error(['Could not open ', file_name,' for writing: ',err_msg]);
+    warning(['Could not open ', file_name,' for writing: ',err_msg]);
+    return;
 end
 fprintf(fid,'%s',upd_license_text);
 fclose(fid);
@@ -148,18 +163,17 @@ function read_char = read_to_char(file_name)
 full_file = fullfile(pwd, file_name);
 [fid, err_msg] = fopen(full_file,'r');
 if fid == -1
-    error(['Could not open ', file_name,' for reading: ',err_msg]);
+    warning(['Could not open ', file_name,' for reading: ',err_msg]);
+    read_char = '';
+    return;
 end
 read_char = fread(fid,'*char')';
 fclose(fid);
 end
 
 function print_info()
-[fid, ~] = fopen('version.txt','r');
-version_str=fread(fid,'*char')';
-fclose(fid);
-
-fprintf('%s%s',"matlab-repo-init v",version_str);
+version_str=read_to_char('version.txt');
+fprintf('%s%s\n',"matlab-repo-init ",version_str);
 end
 
 function print_logo()
