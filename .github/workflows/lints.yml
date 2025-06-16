@@ -1,10 +1,6 @@
 on:
     workflow_call:
 jobs:
-    links:
-        permissions:
-            contents: read
-        uses: ./.github/workflows/links.yml
     commit:
         name: Commit messages
         permissions:
