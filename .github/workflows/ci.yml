@@ -10,6 +10,11 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
+    links: # Slow workflow to run in parallel to all other jobs from start
+        name: Linkspector
+        permissions:
+            contents: read
+        uses: ./.github/workflows/links.yml
     lints: # fast lints
         name: Lints
         permissions:
@@ -23,5 +28,5 @@ jobs:
     webpage-build:
         permissions:
             contents: read
-        needs: lints
+        needs: [lints, links]
         uses: ./.github/workflows/webpage-build.yml
