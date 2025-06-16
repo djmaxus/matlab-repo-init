@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.17.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.1...v0.17.2) (2025-06-16)
+
+
+### Bug Fixes
+
+* **ci:** Linkspector configuration ([574b13d](https://github.com/djmaxus/matlab-repo-init/commit/574b13d9ca92a77d0fdf34d4faed9ff606cd95d6))
+* **ci:** run Linkspector in parallel to everything else ([97a98a7](https://github.com/djmaxus/matlab-repo-init/commit/97a98a77d6c65899d91a0beeef991aa14092f73d))
+* **ci:** run MATLAB checks weekly ([a42f06b](https://github.com/djmaxus/matlab-repo-init/commit/a42f06b81172f27ff5dda2b9ec6b1f7c4bc72824))
+* **init:** 🥅 improve error handling ([36fd522](https://github.com/djmaxus/matlab-repo-init/commit/36fd522adc63f8f636e700305973d521c4118a95))
+
 ## [0.17.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.0...v0.17.1) (2025-05-18)
 
 
