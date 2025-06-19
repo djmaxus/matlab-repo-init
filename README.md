@@ -50,7 +50,7 @@ of your freshly established public MATLAB project!
 Please go to repository's [Wiki][wiki] (when it's ready)
 for more detailed user manual.
 
-Do not hesitate to ask [me](https://djmaxus.github.io/)
+Do not hesitate to ask [me](https://djmaxus.deva)
 for assistance and technical support.\
 And everyone is welcome to open
 [issues](https://github.com/djmaxus/matlab-repo-init/issues)

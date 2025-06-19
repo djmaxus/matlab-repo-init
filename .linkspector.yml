@@ -2,7 +2,6 @@ files:
   - README.md
   - SECURITY.md
   - CONTRIBUTING.md
-  - CITATION.cff
 # dirs:
 excludedFiles:
   - CHANGELOG.md
