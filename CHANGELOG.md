@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.18.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.2...v0.18.0) (2025-07-10)
+
+
+### Features
+
+* **ci:** test on MATLAB 2025a ([2144d52](https://github.com/djmaxus/matlab-repo-init/commit/2144d52ec9fc8fd301f0e8c47f2db31744389647))
+
 ## [0.17.2](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.1...v0.17.2) (2025-06-16)
 
 
