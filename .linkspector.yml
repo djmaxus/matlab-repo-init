@@ -1,0 +1,9 @@
+files:
+  - README.md
+  - SECURITY.md
+  - CONTRIBUTING.md
+# dirs:
+excludedFiles:
+  - CHANGELOG.md
+# excludedDirs:
+useGitIgnore: true
