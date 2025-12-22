@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.18.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.18.0...v0.18.1) (2025-12-22)
+
+
+### Bug Fixes
+
+* **ci:** Linkspector configuration ([cae59b5](https://github.com/djmaxus/matlab-repo-init/commit/cae59b5aed59094ab4555ee992be2fe738023f66))
+
 ## [0.18.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.17.2...v0.18.0) (2025-07-10)
 
 
