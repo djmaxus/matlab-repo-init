@@ -19,4 +19,4 @@ jobs:
           reporter: github-check
           show_stats: false
           fail_level: error
-          filter_mode: ${{ github.event_name == 'schedule' && 'nofilter' || 'added' }}
+          filter_mode: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) && 'nofilter' || 'added' }}
