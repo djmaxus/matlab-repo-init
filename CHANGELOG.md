@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.19.0](https://github.com/djmaxus/matlab-repo-init/compare/v0.18.1...v0.19.0) (2026-01-13)
+
+
+### Features
+
+* **ci:** add Linkspector config file ([44b80e5](https://github.com/djmaxus/matlab-repo-init/commit/44b80e5d0e4c594308d43437e29ed876a1fabf80))
+
+
+### Bug Fixes
+
+* **ci:** linkspector: check everything on manual trigger ([18611ae](https://github.com/djmaxus/matlab-repo-init/commit/18611aed37a0fc56c1232645df2db77fd543125e))
+
 ## [0.18.1](https://github.com/djmaxus/matlab-repo-init/compare/v0.18.0...v0.18.1) (2025-12-22)
 
 
