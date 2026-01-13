@@ -20,3 +20,4 @@ jobs:
           show_stats: false
           fail_level: error
           filter_mode: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) && 'nofilter' || 'added' }}
+          config_file: .linkspector.yml
