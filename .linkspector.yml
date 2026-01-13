@@ -1,0 +1,10 @@
+dirs:
+  - .
+  - .github
+  - .vscode
+excludedFiles:
+  - CHANGELOG.md
+useGitIgnore: true
+ignorePatterns:
+  - pattern: "^(?:\\.{2}\\/){2}security\\/advisories$"
+  - pattern: "^(?:\\.{2}\\/){2}releases\\/latest$"
