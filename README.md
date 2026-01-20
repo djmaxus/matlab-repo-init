@@ -7,7 +7,6 @@
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15447056.svg)](https://doi.org/10.5281/zenodo.15447056)
 
-
 Quickstart your public MATLAB repository. Batteries included 🔋
 
 <!-- markdownlint-disable MD033 -->
